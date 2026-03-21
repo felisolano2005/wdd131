@@ -7,7 +7,6 @@ const navMenu = document.getElementById("navMenu");
 menuButton.addEventListener("click", () => {
     navMenu.classList.toggle("show");
 
-    // Toggle icon
     if (menuButton.textContent === "☰") {
         menuButton.textContent = "✖";
     } else {
