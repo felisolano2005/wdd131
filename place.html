@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore a beautiful place with weather and details">
+    <meta name="author" content="Felipe Solano">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Costa Rica</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/places.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Costa Rica</h1>
+</header>
+
+<main>
+
+    <section class="hero">
+        <picture>
+            <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+            <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+            <img src="images/colibri.jpg" alt="Beautiful Colibri">
+        </picture>
+    </section>
+
+<section class="info">
+    <h2>Data</h2>
+    <ul>
+        <li><strong>Area:</strong> 51,100 sq km</li>
+        <li><strong>Population:</strong> 5,200,000</li>
+        <li><strong>Capital:</strong> San José</li>
+        <li><strong>Languages:</strong> Spanish</li>
+        <li><strong>Currency:</strong> Costa Rican Colón (CRC)</li>
+        <li><strong>Time Zone:</strong> UTC−6</li>
+        <li><strong>Calling Code:</strong> +506</li>
+        <li><strong>Internet TLD:</strong> .cr</li>
+    </ul>
+</section>
+
+    <section class="weather">
+        <h2>Weather</h2>
+
+        <img src="images/weather.svg" alt="Weather Icon" class="weather-icon">
+
+        <p>Temperature: <span id="temp">22</span> °C</p>
+        <p>Wind Speed: <span id="wind">4</span> km/h</p>
+        <p>Wind Chill: <span id="windchill"></span></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span></p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+</footer>
+
+</body>
+</html>
