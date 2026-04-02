@@ -1,0 +1,19 @@
+Subject
+
+Study Abroad Guide for Rican Students
+
+Content
+
+This website is for Costa Rican students who want to study in another country like the United States.
+It will have lots of information. We will talk about what you need to apply how to get scholarships,
+what to do for a visa, where to live, how to manage your money and how to adjust to a culture. 
+The website will also have some tools that use JavaScript like a calculator to help you figure out 
+how much things will cost and a checklist to keep you organized.
+
+Reason
+
+I picked this topic because it matters to me and I think it can really help people. A lot of 
+students in Costa Rica want to study but they do not know what to do first. This website can make 
+things easier for them. Give them the help they need in a way that is easy to understand. Rican 
+students will be able to find everything they need to know about studying abroad in one place. 
+The Study Abroad Guide for Rican Students will be a great resource, for them.
