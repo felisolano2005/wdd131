@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+
+    #menuButton {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        display: flex !important;
+        justify-content: flex-end;
+        gap: 2rem;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .container {
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
