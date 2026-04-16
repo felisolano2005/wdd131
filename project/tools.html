@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tools</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script defer src="scripts/main.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header>
+  <h1>Tools</h1>
+  <nav aria-label="Main Navigation">
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="apply.html">Apply</a></li>
+      <li><a href="tools.html" aria-current="page">Tools</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section>
+    <h2>Cost Calculator</h2>
+    <label for="tuition">Tuition</label>
+    <input type="number" id="tuition">
+
+    <label for="housing">Housing</label>
+    <input type="number" id="housing">
+
+    <button id="calcBtn">Calculate</button>
+    <p id="result" role="status"></p>
+  </section>
+
+  <section>
+    <h2>Checklist</h2>
+    <label for="itemInput">New item</label>
+    <input type="text" id="itemInput">
+    <button id="addItem">Add</button>
+    <ul id="list"></ul>
+  </section>
+</main>
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script defer src="scripts/main.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header>
+  <h1>Apply</h1>
+  <nav aria-label="Main Navigation">
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="apply.html" aria-current="page">Apply</a></li>
+      <li><a href="tools.html">Tools</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <h2>Application Form</h2>
+  <form id="appForm">
+    <label for="name">Name</label>
+    <input id="name" type="text" required>
+
+    <label for="email">Email</label>
+    <input id="email" type="email" required>
+
+    <label for="country">Destination Country</label>
+    <select id="country">
+      <option value="">Select one</option>
+      <option value="usa">United States</option>
+      <option value="canada">Canada</option>
+    </select>
+
+    <button type="submit">Submit</button>
+  </form>
+  <p id="formMsg" role="status"></p>
+</main>
+
+<footer>
+  <a href="references.html">References</a>
+</footer>
+</body>
+</html>
